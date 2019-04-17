@@ -12,7 +12,7 @@
   position:absolute;
   z-index:0;
 }
-#u515_img {
+#u356_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -20,7 +20,7 @@
   width:1228px;
   height:559px;
 }
-#u515 {
+#u356 {
   border-width:0px;
   position:absolute;
   left:8px;
@@ -28,7 +28,7 @@
   width:1228px;
   height:559px;
 }
-#u515_text {
+#u356_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -37,7 +37,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u516_div {
+#u357_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -55,7 +55,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u516 {
+#u357 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -63,7 +63,7 @@
   width:20px;
   height:34px;
 }
-#u516_text {
+#u357_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -72,7 +72,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u517_div {
+#u358_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -90,7 +90,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u517 {
+#u358 {
   border-width:0px;
   position:absolute;
   left:1216px;
@@ -98,7 +98,7 @@
   width:20px;
   height:34px;
 }
-#u517_text {
+#u358_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -106,4 +106,43 @@
   width:0px;
   visibility:hidden;
   word-wrap:break-word;
+}
+#u359_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:662px;
+  height:37px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  color:#9966FF;
+}
+#u359 {
+  border-width:0px;
+  position:absolute;
+  left:8px;
+  top:4px;
+  width:662px;
+  height:37px;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  color:#9966FF;
+}
+#u359_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:662px;
+  white-space:nowrap;
 }
