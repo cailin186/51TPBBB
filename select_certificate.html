@@ -25,29 +25,29 @@
     <div id="base" class="">
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u493" class="ax_default box_1">
-        <img id="u493_img" class="img " src="images/select_certificate/u493.png"/>
+      <div id="u491" class="ax_default box_1">
+        <img id="u491_img" class="img " src="images/select_certificate/u491.png"/>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u494" class="ax_default paragraph1">
-        <div id="u494_div" class=""></div>
-        <div id="u494_text" class="text ">
+      <div id="u492" class="ax_default paragraph1">
+        <div id="u492_div" class=""></div>
+        <div id="u492_text" class="text ">
           <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">&nbsp; Teachers' list</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;"> 中根据 CERTIFICATE 筛选教师：</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u495" class="ax_default label">
-        <div id="u495_div" class=""></div>
-        <div id="u495_text" class="text ">
+      <div id="u493" class="ax_default label">
+        <div id="u493_div" class=""></div>
+        <div id="u493_text" class="text ">
           <p><span style="font-family:'ArialMT', 'Arial';">Certificate</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">：</span></p>
         </div>
       </div>
 
       <!-- 是否有证件 (Droplist) -->
-      <div id="u496" class="ax_default droplist" data-label="是否有证件">
-        <select id="u496_input">
+      <div id="u494" class="ax_default droplist" data-label="是否有证件">
+        <select id="u494_input">
           <option selected value="Select">Select</option>
           <option value="Have">Have</option>
           <option value="None">None</option>
@@ -55,17 +55,33 @@
       </div>
 
       <!-- 证件筛选 (Droplist) -->
-      <div id="u497" class="ax_default droplist" data-label="证件筛选">
-        <select id="u497_input">
+      <div id="u495" class="ax_default droplist" data-label="证件筛选">
+        <select id="u495_input">
           <option value="Select">Select</option>
         </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u496" class="ax_default box_2">
+        <div id="u496_div" class=""></div>
+        <div id="u496_text" class="text ">
+          <p><span>展示内容</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u497" class="ax_default box_2">
+        <div id="u497_div" class=""></div>
+        <div id="u497_text" class="text ">
+          <p><span>展示规则</span></p>
+        </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
       <div id="u498" class="ax_default box_2">
         <div id="u498_div" class=""></div>
         <div id="u498_text" class="text ">
-          <p><span>展示内容</span></p>
+          <p><span>交互规则</span></p>
         </div>
       </div>
 
@@ -73,7 +89,7 @@
       <div id="u499" class="ax_default box_2">
         <div id="u499_div" class=""></div>
         <div id="u499_text" class="text ">
-          <p><span>展示规则</span></p>
+          <p><span>选项：Select/Have/None</span></p>
         </div>
       </div>
 
@@ -81,7 +97,7 @@
       <div id="u500" class="ax_default box_2">
         <div id="u500_div" class=""></div>
         <div id="u500_text" class="text ">
-          <p><span>交互规则</span></p>
+          <p><span>&#149; 始终展示</span></p><p><span>&#149; 默认选中Select</span></p>
         </div>
       </div>
 
@@ -89,7 +105,7 @@
       <div id="u501" class="ax_default box_2">
         <div id="u501_div" class=""></div>
         <div id="u501_text" class="text ">
-          <p><span>选项：Select/Have/None</span></p>
+          <p><span>&#149;&nbsp; 单选按钮组</span></p><p><span>&#149;&nbsp; 选中Select，Certificate筛选条件为不限</span></p><p><span>&#149; 选中None，Certificate筛选条件仅限None</span></p><p><span>&#149; 选中Have，展示二级筛选项</span></p>
         </div>
       </div>
 
@@ -97,7 +113,7 @@
       <div id="u502" class="ax_default box_2">
         <div id="u502_div" class=""></div>
         <div id="u502_text" class="text ">
-          <p><span>&#149; 始终展示</span></p><p><span>&#149; 默认选中Select</span></p>
+          <p><span>一级筛选</span></p>
         </div>
       </div>
 
@@ -105,7 +121,7 @@
       <div id="u503" class="ax_default box_2">
         <div id="u503_div" class=""></div>
         <div id="u503_text" class="text ">
-          <p><span>&#149;&nbsp; 单选按钮组</span></p><p><span>&#149;&nbsp; 选中Select，Certificate筛选条件为不限</span></p><p><span>&#149; 选中None，Certificate筛选条件仅限None</span></p><p><span>&#149; 选中Have，展示二级筛选项</span></p>
+          <p><span>选项数据来源：PRS CERTIFICATE配置表(证件选项可自定义配置)</span></p>
         </div>
       </div>
 
@@ -113,7 +129,7 @@
       <div id="u504" class="ax_default box_2">
         <div id="u504_div" class=""></div>
         <div id="u504_text" class="text ">
-          <p><span>一级筛选</span></p>
+          <p><span>&#149; 当且仅当一级筛选选中“Have”时展示，否则不展示</span></p><p><span>&#149; 默认无选中项</span></p>
         </div>
       </div>
 
@@ -121,7 +137,7 @@
       <div id="u505" class="ax_default box_2">
         <div id="u505_div" class=""></div>
         <div id="u505_text" class="text ">
-          <p><span>选项数据来源：PRS CERTIFICATE配置表(证件选项可自定义配置)</span></p>
+          <p><span>二级筛选</span></p>
         </div>
       </div>
 
@@ -129,22 +145,6 @@
       <div id="u506" class="ax_default box_2">
         <div id="u506_div" class=""></div>
         <div id="u506_text" class="text ">
-          <p><span>&#149; 当且仅当一级筛选选中“Have”时展示，否则不展示</span></p><p><span>&#149; 默认无选中项</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u507" class="ax_default box_2">
-        <div id="u507_div" class=""></div>
-        <div id="u507_text" class="text ">
-          <p><span>二级筛选</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u508" class="ax_default box_2">
-        <div id="u508_div" class=""></div>
-        <div id="u508_text" class="text ">
           <p><span>&#149; 多选按钮组</span></p><p><span>&#149; 无选中项时，Certificate筛选条件为(Have) ∩ (不限二级筛选项)</span></p><p><span>&#149; 有选中项时，Certificate筛选条件为(Have) ∩ (二级筛选项选中项的并集)</span></p>
         </div>
       </div>
