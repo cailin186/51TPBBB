@@ -4,7 +4,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:1186px;
+  width:1198px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -13,12 +13,12 @@
   position:absolute;
   z-index:0;
 }
-#u542_div {
+#u557_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:1035px;
+  width:1198px;
   height:372px;
   background:inherit;
   background-color:rgba(255, 255, 255, 1);
@@ -31,15 +31,15 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u542 {
+#u557 {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:1035px;
+  width:1198px;
   height:372px;
 }
-#u542_text {
+#u557_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -48,13 +48,13 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u543_div {
+#u558_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:322px;
-  height:50px;
+  height:75px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -66,18 +66,18 @@
   font-style:normal;
   color:#9966FF;
 }
-#u543 {
+#u558 {
   border-width:0px;
   position:absolute;
   left:26px;
   top:27px;
   width:322px;
-  height:50px;
+  height:75px;
   font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
   font-style:normal;
   color:#9966FF;
 }
-#u543_text {
+#u558_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -85,13 +85,13 @@
   width:322px;
   white-space:nowrap;
 }
-#u544_div {
+#u559_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:1160px;
-  height:149px;
+  height:169px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -101,16 +101,16 @@
   box-shadow:none;
   font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
 }
-#u544 {
+#u559 {
   border-width:0px;
   position:absolute;
   left:26px;
   top:112px;
   width:1160px;
-  height:149px;
+  height:169px;
   font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
 }
-#u544_text {
+#u559_text {
   border-width:0px;
   position:absolute;
   left:0px;
