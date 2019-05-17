@@ -13,7 +13,7 @@
   position:absolute;
   z-index:0;
 }
-#u536_img {
+#u586_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -21,7 +21,7 @@
   width:677px;
   height:451px;
 }
-#u536 {
+#u586 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -29,7 +29,7 @@
   width:677px;
   height:451px;
 }
-#u536_text {
+#u586_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -38,32 +38,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u537_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:177px;
-  height:64px;
-}
-#u537 {
-  border-width:0px;
-  position:absolute;
-  left:27px;
-  top:25px;
-  width:177px;
-  height:64px;
-}
-#u537_text {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
-  visibility:hidden;
-  word-wrap:break-word;
-}
-#u538_img {
+#u587_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -71,7 +46,7 @@
   width:631px;
   height:125px;
 }
-#u538 {
+#u587 {
   border-width:0px;
   position:absolute;
   left:36px;
@@ -79,7 +54,7 @@
   width:631px;
   height:125px;
 }
-#u538_text {
+#u587_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -88,7 +63,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u539_div {
+#u588_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -106,7 +81,7 @@
   font-style:normal;
   color:#9966FF;
 }
-#u539 {
+#u588 {
   border-width:0px;
   position:absolute;
   left:27px;
@@ -117,11 +92,36 @@
   font-style:normal;
   color:#9966FF;
 }
-#u539_text {
+#u588_text {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:517px;
+  word-wrap:break-word;
+}
+#u589_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:200px;
+  height:52px;
+}
+#u589 {
+  border-width:0px;
+  position:absolute;
+  left:36px;
+  top:27px;
+  width:200px;
+  height:52px;
+}
+#u589_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  visibility:hidden;
   word-wrap:break-word;
 }

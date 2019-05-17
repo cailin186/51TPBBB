@@ -1,0 +1,120 @@
+﻿body {
+  margin:0px;
+  background-color:rgba(242, 242, 242, 1);
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1186px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u542_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1035px;
+  height:372px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(255, 255, 255, 1);
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u542 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1035px;
+  height:372px;
+}
+#u542_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u543_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:322px;
+  height:50px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-style:normal;
+  color:#9966FF;
+}
+#u543 {
+  border-width:0px;
+  position:absolute;
+  left:26px;
+  top:27px;
+  width:322px;
+  height:50px;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-style:normal;
+  color:#9966FF;
+}
+#u543_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:322px;
+  white-space:nowrap;
+}
+#u544_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1160px;
+  height:149px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+}
+#u544 {
+  border-width:0px;
+  position:absolute;
+  left:26px;
+  top:112px;
+  width:1160px;
+  height:149px;
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+}
+#u544_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1160px;
+  word-wrap:break-word;
+}
