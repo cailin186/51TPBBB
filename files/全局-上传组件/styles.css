@@ -382,3 +382,32 @@
   width:424px;
   white-space:nowrap;
 }
+#u13_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:917px;
+  height:119px;
+}
+#u13 {
+  border-width:0px;
+  position:absolute;
+  left:34px;
+  top:209px;
+  width:917px;
+  height:119px;
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:72px;
+  color:#FFFFFF;
+}
+#u13_text {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:10px;
+  width:913px;
+  word-wrap:break-word;
+}
