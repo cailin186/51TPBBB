@@ -2231,7 +2231,7 @@
   box-shadow:none;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-style:normal;
-  font-size:12px;
+  font-size:11px;
   color:#000000;
   text-align:left;
 }
@@ -2244,7 +2244,7 @@
   height:171px;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-style:normal;
-  font-size:12px;
+  font-size:11px;
   color:#000000;
   text-align:left;
 }
@@ -2252,7 +2252,7 @@
   border-width:0px;
   position:absolute;
   left:2px;
-  top:9px;
+  top:-2px;
   width:187px;
   word-wrap:break-word;
 }
