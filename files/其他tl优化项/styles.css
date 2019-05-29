@@ -2152,6 +2152,7 @@
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-weight:100;
   font-style:normal;
+  font-size:12px;
   color:#000000;
 }
 #u858 {
@@ -2164,13 +2165,14 @@
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-weight:100;
   font-style:normal;
+  font-size:12px;
   color:#000000;
 }
 #u858_text {
   border-width:0px;
   position:absolute;
   left:2px;
-  top:22px;
+  top:26px;
   width:14px;
   word-wrap:break-word;
 }
@@ -2190,6 +2192,7 @@
   box-shadow:none;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-style:normal;
+  font-size:12px;
   text-align:left;
 }
 #u859 {
@@ -2201,13 +2204,14 @@
   height:171px;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-style:normal;
+  font-size:12px;
   text-align:left;
 }
 #u859_text {
   border-width:0px;
   position:absolute;
   left:2px;
-  top:32px;
+  top:43px;
   width:176px;
   word-wrap:break-word;
 }
@@ -2227,6 +2231,7 @@
   box-shadow:none;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-style:normal;
+  font-size:12px;
   color:#000000;
   text-align:left;
 }
@@ -2239,6 +2244,7 @@
   height:171px;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-style:normal;
+  font-size:12px;
   color:#000000;
   text-align:left;
 }
@@ -2246,7 +2252,7 @@
   border-width:0px;
   position:absolute;
   left:2px;
-  top:50px;
+  top:9px;
   width:187px;
   word-wrap:break-word;
 }
@@ -2266,6 +2272,7 @@
   box-shadow:none;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-style:normal;
+  font-size:12px;
   color:#000000;
   text-align:left;
 }
@@ -2278,6 +2285,7 @@
   height:171px;
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-style:normal;
+  font-size:12px;
   color:#000000;
   text-align:left;
 }
@@ -2285,7 +2293,7 @@
   border-width:0px;
   position:absolute;
   left:2px;
-  top:14px;
+  top:34px;
   width:231px;
   word-wrap:break-word;
 }
@@ -2306,6 +2314,7 @@
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-weight:100;
   font-style:normal;
+  font-size:12px;
   color:#000000;
 }
 #u862 {
@@ -2318,13 +2327,14 @@
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-weight:100;
   font-style:normal;
+  font-size:12px;
   color:#000000;
 }
 #u862_text {
   border-width:0px;
   position:absolute;
   left:2px;
-  top:76px;
+  top:77px;
   width:212px;
   word-wrap:break-word;
 }
