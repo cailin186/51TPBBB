@@ -120,7 +120,7 @@
       <div id="u883" class="ax_default box_2">
         <div id="u883_div" class=""></div>
         <div id="u883_text" class="text ">
-          <p><span>&#149; 当且仅当TL中的教师为HBT时，展示此开关，否则不展示此开关</span></p><p><span>&#149; 展示时回显上一次选中的选项</span></p><p><span>&#149; 初始默认选中OFF</span></p><p><span>&#149; 一个带有RETURNING标记的教师在PRS招聘流程中的状态为COMPLETED，系统自动取消其RETURNING标记，RETURNING开关变更为OFF</span></p><p><span>&#149;当且仅当RETURNING开关为ON的教师，在TL中展示时，名字下方展示RETURNING标签</span></p>
+          <p><span>&#149; 当且仅当TL中的教师为HBT时，展示此开关，否则不展示此开关</span></p><p><span>&#149; 展示时回显上一次选中的选项</span></p><p><span>&#149; 初始默认选中OFF</span></p><p><span>&#149; 一个带有RETURNING标记的教师在PRS招聘流程中的状态为COMPLETED时，系统自动取消其RETURNING标记，RETURNING开关变更为OFF</span></p><p><span>&#149;当且仅当RETURNING开关为ON的教师，在TL中展示时，名字下方展示RETURNING标签</span></p>
         </div>
       </div>
 
@@ -128,7 +128,7 @@
       <div id="u884" class="ax_default box_2">
         <div id="u884_div" class=""></div>
         <div id="u884_text" class="text ">
-          <p><span style="color:#000000;">&#149; 当且仅当该教师当前处于TMS/PRS的招聘流程中时，开关禁用不可操作，否则均可操作开启/关闭</span></p><p><span style="color:#000000;">&#149; 打开开关后，对该教师打上“RETURNING”状态标记</span></p><p><span style="color:#000000;">&#149; 关闭开关后，对该教师取消“RETURNING”状态标记</span></p><p><span style="color:#000000;">&#149; 带有“RETURNING”状态标记的教师进入PRS的规则说明：</span></p><p><span style="color:#000000;">&#149; 1）可使用此教师账号，从PRS登录页登录进入PRS-FILL FORM页，并开始PRS招聘流程</span></p><p><span style="color:#000000;">&#149; 2）通过RETURNING开关成功登录进入PRS的教师，系统自动为其重置合同</span></p><p><span style="color:#CC0000;">&#149; 其他疑似影响字段：星级，自学</span></p><p><span style="color:#000000;">&#149; 3）RETURNING状态下的教师登录进入FILL FORM页后，邮箱不可编辑，手机号可编辑，且需要动态验证码校验手机号为当前正在使用的真实手机号</span></p><p><span style="color:#000000;">&#149; 4)进入FILL FORM页后，校验以下字段在系统中是否已存有对应内容：</span></p><p><span style="color:#000000;">&#149; NAME</span></p><p><span style="color:#000000;">&#149; GENDER</span></p><p><span style="color:#000000;">&#149; DATE OF BIRTH</span></p><p><span style="color:#000000;">&#149; MOBILE NUMBER</span></p><p><span style="color:#000000;">&#149; EMAIL ADDRESS</span></p><p><span style="color:#000000;">&#149; SKYPE ID</span></p><p><span style="color:#000000;">&#149; ADDRESS</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">以上字段若有，FILL FORM页上自动为其填充这些字段；若无，留空为默认状态</span></p>
+          <p><span>&#149; 当且仅当该教师当前处于TMS/PRS的招聘流程中时，开关禁用不可操作，否则均可操作开启/关闭</span></p><p><span>&#149; 打开开关后，对该教师打上“RETURNING”状态标记</span></p><p><span>&#149; 关闭开关后，对该教师取消“RETURNING”状态标记</span></p><p><span>&#149; 带有“RETURNING”状态标记的教师进入PRS的规则说明：</span></p><p><span>&#149; 1）可使用此教师账号，从PRS登录页登录进入PRS-FILL FORM页，并开始PRS招聘流程</span></p><p><span>&#149; 2）通过RETURNING标签成功登录进入PRS的教师，系统自动为其重置合同，需要在接下来的PRS流程中重新签订合同</span></p><p><span>&#149; 3）带有RETURNING标签的教师登录进入FILL FORM页后，REFERRER MOBILE NUMBER不展示，邮箱不可编辑，手机号可编辑，且需要动态验证码校验手机号为当前正在使用的真实手机号</span></p><p><span>&#149; 4)进入FILL FORM页后，校验以下字段在系统中是否已存有对应内容：</span></p><p><span>-NAME</span></p><p><span>- GENDER</span></p><p><span>- DATE OF BIRTH</span></p><p><span>- MOBILE NUMBER</span></p><p><span>- EMAIL ADDRESS</span></p><p><span>- SKYPE ID</span></p><p><span>- ADDRESS</span></p><p><span><br></span></p><p><span>以上字段若有，FILL FORM页上自动为其填充这些字段；若无，留空为默认状态</span></p><p><span><br></span></p><p><span>&#149; 5）通过RETURNING标签成功登录进入PRS的教师，在PRS中COMPLETID之后，在系统中存储的所有字段信息默认维持原内容，当且仅当管理员手动变更该老师信息后，才产生相应变更(对星级的手动变更，需要使用原来的星级调整工具)</span></p>
         </div>
       </div>
 
@@ -149,15 +149,7 @@
       <div id="u887" class="ax_default label">
         <div id="u887_div" class=""></div>
         <div id="u887_text" class="text ">
-          <p><span>不可编辑</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u888" class="ax_default label">
-        <div id="u888_div" class=""></div>
-        <div id="u888_text" class="text ">
-          <p><span>不可编辑</span></p>
+          <p><span>不展示此字段</span></p>
         </div>
       </div>
     </div>
