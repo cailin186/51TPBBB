@@ -25,7 +25,7 @@
     <div id="base" class="">
 
       <!-- Unnamed (Group) -->
-      <div id="u870" class="ax_default" data-left="20" data-top="1189" data-width="680" data-height="884">
+      <div id="u870" class="ax_default" data-left="20" data-top="1270" data-width="680" data-height="884">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u871" class="ax_default box_1">
@@ -84,7 +84,7 @@
         <div id="u878" class="ax_default flow_shape">
           <div id="u878_div" class=""></div>
           <div id="u878_text" class="text ">
-            <p><span>RETURNING状态由系统自动置为OFF，但管理员可手动更改</span></p>
+            <p><span>RETURNING状态由系统自动置为OFF</span></p>
           </div>
         </div>
 
@@ -92,7 +92,7 @@
         <div id="u879" class="ax_default flow_shape">
           <div id="u879_div" class=""></div>
           <div id="u879_text" class="text ">
-            <p><span>系统不变更RETURNING状态，管理员可手动更改</span></p>
+            <p><span>RETURNING状态保持为ON，系统不作变更</span></p>
           </div>
         </div>
 
@@ -336,7 +336,7 @@
       <div id="u909" class="ax_default box_2">
         <div id="u909_div" class=""></div>
         <div id="u909_text" class="text ">
-          <p><span>&#149; 当且仅当TL中的教师为HBT时，展示此开关，否则不展示此开关</span></p><p><span>&#149; 展示时回显上一次选中的选项</span></p><p><span>&#149; 初始默认选中OFF</span></p><p><span>&#149; 一个带有RETURNING标记的教师在PRS招聘流程中的状态为COMPLETED时，系统自动取消其RETURNING标记，RETURNING开关变更为OFF</span></p><p><span>&#149;当且仅当一个教师RETURNING开关为ON时，下方展示RETURNING标签</span></p>
+          <p><span style="color:#000000;">&#149; 当且仅当TL中的教师为HBT时，展示此开关，否则不展示此开关</span></p><p><span style="color:#000000;">&#149; 展示时回显上一次选中的选项</span></p><p><span style="color:#000000;">&#149; 初始默认选中OFF</span></p><p><span style="color:#000000;">&#149; 当且仅当一个教师当前RETURNING开关为开，且在PRS中的状态为COMPLETED时，RETURNING开关才会自动变更为OFF，其他情况均不可被自动/手动变更为OFF，</span><span style="color:#CC0000;">否则点击提示：&quot;&quot;</span></p><p><span style="color:#000000;">&#149; 当且仅当一个HBT老师同时满足以下条件时：RETURNING开关为关+上线次数大于等于1+当前为OFFLINE+当前未处于PRS/TMS招聘流程中，这个老师的RETURNING开关可被操作为ON，其他情况均不可被自动/手动变更为ON，</span><span style="color:#CC0000;">否则点击提示:&quot;&quot;</span></p><p><span style="color:#000000;">&#149;当且仅当教师RETURNING开关为ON时，RETURNING标签高亮；当且仅当教师RETURNING开关为OFF时，RETURNING标签熄灭。</span></p>
         </div>
       </div>
 
@@ -344,7 +344,7 @@
       <div id="u910" class="ax_default box_2">
         <div id="u910_div" class=""></div>
         <div id="u910_text" class="text ">
-          <p><span>&#149; 当且仅当该教师当前处于TMS/PRS的招聘流程中时，开关禁用不可操作，否则均可操作开启/关闭</span></p><p><span>&#149; 打开开关后，对该教师打上“RETURNING”状态标记</span></p><p><span>&#149; 关闭开关后，对该教师取消“RETURNING”状态标记</span></p><p><span>&#149; 带有“RETURNING”状态标记的教师进入PRS的规则说明：</span></p><p><span>&#149; 1）可使用此教师账号，从PRS登录页登录进入PRS-FILL FORM页，并开始PRS招聘流程</span></p><p><span>&#149; 2）通过RETURNING标签成功登录进入PRS的教师，系统自动为其重置合同，需要在接下来的PRS流程中重新签订合同</span></p><p><span>&#149; 3）带有RETURNING标签的教师登录进入FILL FORM页后，REFERRER MOBILE NUMBER不展示，邮箱不可编辑，手机号可编辑，且需要动态验证码校验手机号为当前正在使用的真实手机号</span></p><p><span>&#149; 4)进入FILL FORM页后，校验以下字段在系统中是否已存有对应内容：</span></p><p><span>-NAME</span></p><p><span>- GENDER</span></p><p><span>- DATE OF BIRTH</span></p><p><span>- MOBILE NUMBER</span></p><p><span>- EMAIL ADDRESS</span></p><p><span>- SKYPE ID</span></p><p><span>- ADDRESS</span></p><p><span><br></span></p><p><span>以上字段若有，FILL FORM页上自动为其填充这些字段；若无，留空为默认状态。填充NAME时，若系统未按FIRST NAME/MIDDLE NAME/LAST NAME分别存储而只存储了一个FULL NAME，则在此处回填NAME时，默认将FULL NAME回填至FIRST NAME</span></p><p><span><br></span></p><p><span>&#149; 5）通过RETURNING标签成功登录进入PRS的教师，在PRS中COMPLETID之后，在系统中存储的所有字段信息默认维持原内容，当且仅当管理员手动变更该老师信息后，才产生相应变更(对星级的手动变更，需要使用原来的星级调整工具)</span></p>
+          <p><span>&#149; 当且仅当该教师当前处于TMS/PRS的招聘流程中时，开关禁用不可操作，否则均可操作开启/关闭</span></p><p><span>&#149; 打开开关后，对该教师打上“RETURNING”状态标记</span></p><p><span>&#149; 关闭开关后，对该教师取消“RETURNING”状态标记</span></p><p><span>&#149; 带有“RETURNING”状态标记的教师进入PRS的规则说明：</span></p><p><span>&#149; 1）可使用此教师账号，从PRS登录页登录进入PRS-FILL FORM页，并开始PRS招聘流程</span></p><p><span>&#149; 2）通过RETURNING标签成功登录进入PRS的教师，系统自动为其重置合同，需要在接下来的PRS流程中重新签订合同</span></p><p><span>&#149; 3）带有RETURNING标签的教师登录进入FILL FORM页后，REFERRER MOBILE NUMBER不展示，邮箱不可编辑，手机号可编辑，且需要动态验证码校验手机号为当前正在使用的真实手机号</span></p><p><span>&#149; 4)进入FILL FORM页后，校验以下字段在系统中是否已存有对应内容：</span></p><p><span>-NAME</span></p><p><span>- GENDER</span></p><p><span>- DATE OF BIRTH</span></p><p><span>- MOBILE NUMBER</span></p><p><span>- EMAIL ADDRESS</span></p><p><span>- SKYPE ID</span></p><p><span>- ADDRESS</span></p><p><span><br></span></p><p><span>以上字段若有，FILL FORM页上自动为其填充这些字段；若无，留空为默认状态。填充NAME时，若系统未按FIRST NAME/MIDDLE NAME/LAST NAME分别存储而只存储了一个FULL NAME，则在此处回填NAME时，默认将FULL NAME回填至FIRST NAME</span></p><p><span><br></span></p><p><span>&#149; 5）通过RETURNING标签成功登录进入PRS的教师，在PRS中COMPLETID之后，除LEVEL按照招聘规则由系统重新设定外，在系统中存储的其他所有字段信息默认维持原内容，当且仅当管理员手动变更该老师信息后，才产生相应变更(对星级的手动变更，需要使用原来的星级调整工具)；对LEVEL的调整，需要在PROMOTION中通过备注“RETURNING”予以说明</span></p><p><span><br></span></p><p><span>&#149;6）教师RETURNING开关的变更，在REMARK中予以记录</span></p>
         </div>
       </div>
 
