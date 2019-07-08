@@ -1173,6 +1173,7 @@
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-weight:100;
   font-style:normal;
+  color:#000000;
   text-align:left;
 }
 #u901 {
@@ -1185,13 +1186,14 @@
   font-family:'PingFangSC-Ultralight', 'PingFang SC Ultralight', 'PingFang SC';
   font-weight:100;
   font-style:normal;
+  color:#000000;
   text-align:left;
 }
 #u901_text {
   border-width:0px;
   position:absolute;
   left:2px;
-  top:263px;
+  top:164px;
   width:187px;
   word-wrap:break-word;
 }
