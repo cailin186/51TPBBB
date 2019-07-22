@@ -1,0 +1,772 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Club Member List</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/club_member_list/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/club_member_list/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Group) -->
+      <div id="u1692" class="ax_default" data-left="0" data-top="0" data-width="1814" data-height="1359">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1693" class="ax_default box_1">
+          <div id="u1693_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Group) -->
+        <div id="u1694" class="ax_default" data-left="30" data-top="428" data-width="1679" data-height="877">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1695" class="ax_default box_3">
+            <div id="u1695_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u1696" class="ax_default" data-left="42" data-top="444" data-width="543" data-height="265">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1697" class="ax_default box_1">
+              <div id="u1697_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1698" class="ax_default box_2">
+              <div id="u1698_div" class=""></div>
+              <div id="u1698_text" class="text ">
+                <p><span>Remove Member</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1699" class="ax_default label">
+              <div id="u1699_div" class=""></div>
+              <div id="u1699_text" class="text ">
+                <p><span>Remove to other club:</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u1700" class="ax_default droplist">
+              <select id="u1700_input">
+              </select>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1701" class="ax_default primary_button">
+              <div id="u1701_div" class=""></div>
+              <div id="u1701_text" class="text ">
+                <p><span>Remove</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1702" class="ax_default button">
+              <div id="u1702_div" class=""></div>
+              <div id="u1702_text" class="text ">
+                <p><span>Return</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1703" class="ax_default paragraph1">
+              <div id="u1703_div" class=""></div>
+              <div id="u1703_text" class="text ">
+                <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 下拉</span><span style="font-family:'ArialMT', 'Arial';">CLUB</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">列表：当前系统全部CLUB</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 确认操作后，将当前成员移动至选中CLUB，该成员不再隶属当前CLUB</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 如当前成员的CLUB POSITION为CAPTAIN，点击Remove时报错提示：“Cannot remove a captain, you can transfer the captain position to other member”</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u1704" class="ax_default" data-left="591" data-top="444" data-width="543" data-height="265">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1705" class="ax_default box_1">
+              <div id="u1705_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1706" class="ax_default box_2">
+              <div id="u1706_div" class=""></div>
+              <div id="u1706_text" class="text ">
+                <p><span>Transfer Captain</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1707" class="ax_default label">
+              <div id="u1707_div" class=""></div>
+              <div id="u1707_text" class="text ">
+                <p><span>Transfer the captain to other member in this club :</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u1708" class="ax_default droplist">
+              <select id="u1708_input">
+              </select>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1709" class="ax_default primary_button">
+              <div id="u1709_div" class=""></div>
+              <div id="u1709_text" class="text ">
+                <p><span>Transfer</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1710" class="ax_default button">
+              <div id="u1710_div" class=""></div>
+              <div id="u1710_text" class="text ">
+                <p><span>Return</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1711" class="ax_default paragraph1">
+              <div id="u1711_div" class=""></div>
+              <div id="u1711_text" class="text ">
+                <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">&#149; 下拉</span><span style="font-family:'ArialMT', 'Arial';">MEMBER</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">列表：当前</span><span style="font-family:'ArialMT', 'Arial';">CLUB</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">除当前成员之外的剩余成员</span></p><p><span style="font-family:'ArialMT', 'Arial';">&#149; </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">确认操作后，转让</span><span style="font-family:'ArialMT', 'Arial';">CAPTAIN</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">至选中的成员，当前成员的CLUB POSITION变更为MEMBER</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u1712" class="ax_default" data-left="1144" data-top="444" data-width="543" data-height="265">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1713" class="ax_default box_1">
+              <div id="u1713_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1714" class="ax_default box_2">
+              <div id="u1714_div" class=""></div>
+              <div id="u1714_text" class="text ">
+                <p><span>Delete Member</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1715" class="ax_default primary_button">
+              <div id="u1715_div" class=""></div>
+              <div id="u1715_text" class="text ">
+                <p><span>Delete</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1716" class="ax_default button">
+              <div id="u1716_div" class=""></div>
+              <div id="u1716_text" class="text ">
+                <p><span>Return</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1717" class="ax_default label">
+              <div id="u1717_div" class=""></div>
+              <div id="u1717_text" class="text ">
+                <p><span>The member will be no longer belong to any club, continue?</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1718" class="ax_default paragraph1">
+              <div id="u1718_div" class=""></div>
+              <div id="u1718_text" class="text ">
+                <p><span>&#149; 确认操作后，当前成员不再属于任何CLUB，可以被再次添加进CLUB</span></p><p><span>&#149; 如当前成员的CLUB POSITION为CAPTAIN，点击DELETE时报错提示：“Cannot delete a captain, you can transfer the captain position to other member”</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u1719" class="ax_default" data-left="42" data-top="737" data-width="543" data-height="486">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1720" class="ax_default box_1">
+              <div id="u1720_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1721" class="ax_default box_2">
+              <div id="u1721_div" class=""></div>
+              <div id="u1721_text" class="text ">
+                <p><span>Add New Member</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1722" class="ax_default label">
+              <div id="u1722_div" class=""></div>
+              <div id="u1722_text" class="text ">
+                <p><span style="color:#CC0000;">* </span><span>Member's mail:</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u1723" class="ax_default text_field">
+              <input id="u1723_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1724" class="ax_default primary_button">
+              <div id="u1724_div" class=""></div>
+              <div id="u1724_text" class="text ">
+                <p><span>Save</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1725" class="ax_default button">
+              <div id="u1725_div" class=""></div>
+              <div id="u1725_text" class="text ">
+                <p><span>Return</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1726" class="ax_default label">
+              <div id="u1726_div" class=""></div>
+              <div id="u1726_text" class="text ">
+                <p><span>The email should be existing in the system</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1727" class="ax_default label">
+              <div id="u1727_div" class=""></div>
+              <div id="u1727_text" class="text ">
+                <p><span>Position:</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u1728" class="ax_default droplist">
+              <select id="u1728_input">
+                <option value="  Member">&nbsp; Member</option>
+                <option value="  Position">&nbsp; Position</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1729" class="ax_default paragraph1">
+              <div id="u1729_div" class=""></div>
+              <div id="u1729_text" class="text ">
+                <p><span>&#149; 如Member's mail为空，点击SAVE时报错提示：“The Member's mail cannot be empty”</span></p><p><span>&#149; 如添加的&quot;Member's mail&quot;系统不存在，点击SAVE时报错提示：“The Member's maildoes not exist in the system”</span></p><p><span>&#149; 如当前CLUB已有CAPTAIN，且此处POSITION也选择POSITION，则点击SAVE时报错提示：“The club has a captain already, you can add member only”</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Group) -->
+        <div id="u1730" class="ax_default" data-left="30" data-top="189" data-width="1335" data-height="200">
+
+          <!-- Unnamed (Table) -->
+          <div id="u1731" class="ax_default">
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1732" class="ax_default table_cell">
+              <img id="u1732_img" class="img " src="images/club_member_list/u1732.png"/>
+              <div id="u1732_text" class="text ">
+                <p><span>Teacher Name</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1733" class="ax_default table_cell">
+              <img id="u1733_img" class="img " src="images/club_member_list/u1733.png"/>
+              <div id="u1733_text" class="text ">
+                <p><span>Club Position</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1734" class="ax_default table_cell">
+              <img id="u1734_img" class="img " src="images/club_member_list/u1732.png"/>
+              <div id="u1734_text" class="text ">
+                <p><span>Email</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1735" class="ax_default table_cell">
+              <img id="u1735_img" class="img " src="images/club_member_list/u1735.png"/>
+              <div id="u1735_text" class="text ">
+                <p><span>Mobile</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1736" class="ax_default table_cell">
+              <img id="u1736_img" class="img " src="images/club_member_list/u1736.png"/>
+              <div id="u1736_text" class="text ">
+                <p><span>Date of Join</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1737" class="ax_default table_cell">
+              <img id="u1737_img" class="img " src="images/club_member_list/u1737.png"/>
+              <div id="u1737_text" class="text ">
+                <p><span>Launch Date</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1738" class="ax_default table_cell">
+              <img id="u1738_img" class="img " src="images/club_member_list/u1738.png"/>
+              <div id="u1738_text" class="text ">
+                <p><span>Off Date</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1739" class="ax_default table_cell">
+              <img id="u1739_img" class="img " src="images/club_member_list/u1739.png"/>
+              <div id="u1739_text" class="text ">
+                <p><span>BK-12</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1740" class="ax_default table_cell">
+              <img id="u1740_img" class="img " src="images/club_member_list/u1740.png"/>
+              <div id="u1740_text" class="text ">
+                <p><span>JK-12</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1741" class="ax_default table_cell">
+              <img id="u1741_img" class="img " src="images/club_member_list/u1741.png"/>
+              <div id="u1741_text" class="text ">
+                <p><span>LEVEL</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1742" class="ax_default table_cell">
+              <img id="u1742_img" class="img " src="images/club_member_list/u1742.png"/>
+              <div id="u1742_text" class="text ">
+                <p><span>ID</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1743" class="ax_default table_cell">
+              <img id="u1743_img" class="img " src="images/club_member_list/u1743.png"/>
+              <div id="u1743_text" class="text ">
+                <p><span>Operation</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1744" class="ax_default table_cell">
+              <img id="u1744_img" class="img " src="images/pb_club_list/u1668.png"/>
+              <div id="u1744_text" class="text ">
+                <p><span>A</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1745" class="ax_default table_cell">
+              <img id="u1745_img" class="img " src="images/club_member_list/u1745.png"/>
+              <div id="u1745_text" class="text ">
+                <p><span>Member</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1746" class="ax_default table_cell">
+              <img id="u1746_img" class="img " src="images/pb_club_list/u1668.png"/>
+              <div id="u1746_text" class="text ">
+                <p><span>123@123.com</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1747" class="ax_default table_cell">
+              <img id="u1747_img" class="img " src="images/club_member_list/u1747.png"/>
+              <div id="u1747_text" class="text ">
+                <p><span>13456789988</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1748" class="ax_default table_cell">
+              <img id="u1748_img" class="img " src="images/club_member_list/u1748.png"/>
+              <div id="u1748_text" class="text ">
+                <p><span>2019-02-21</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1749" class="ax_default table_cell">
+              <img id="u1749_img" class="img " src="images/club_member_list/u1749.png"/>
+              <div id="u1749_text" class="text ">
+                <p><span>--</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1750" class="ax_default table_cell">
+              <img id="u1750_img" class="img " src="images/club_member_list/u1750.png"/>
+              <div id="u1750_text" class="text ">
+                <p><span>--</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1751" class="ax_default table_cell">
+              <img id="u1751_img" class="img " src="images/club_member_list/u1751.png"/>
+              <div id="u1751_text" class="text ">
+                <p><span>No</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1752" class="ax_default table_cell">
+              <img id="u1752_img" class="img " src="images/club_member_list/u1752.png"/>
+              <div id="u1752_text" class="text ">
+                <p><span>No</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1753" class="ax_default table_cell">
+              <img id="u1753_img" class="img " src="images/club_member_list/u1753.png"/>
+              <div id="u1753_text" class="text ">
+                <p><span>0</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1754" class="ax_default table_cell">
+              <img id="u1754_img" class="img " src="images/club_member_list/u1754.png"/>
+              <div id="u1754_text" class="text ">
+                <p><span>123456</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1755" class="ax_default table_cell">
+              <img id="u1755_img" class="img " src="images/club_member_list/u1755.png"/>
+              <div id="u1755_text" class="text ">
+                <p><span>Remove&nbsp; &nbsp; Delete</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1756" class="ax_default table_cell">
+              <img id="u1756_img" class="img " src="images/pb_club_list/u1675.png"/>
+              <div id="u1756_text" class="text ">
+                <p><span>B</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1757" class="ax_default table_cell">
+              <img id="u1757_img" class="img " src="images/club_member_list/u1757.png"/>
+              <div id="u1757_text" class="text ">
+                <p><span>Captain</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1758" class="ax_default table_cell">
+              <img id="u1758_img" class="img " src="images/pb_club_list/u1675.png"/>
+              <div id="u1758_text" class="text ">
+                <p><span>124@123.com</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1759" class="ax_default table_cell">
+              <img id="u1759_img" class="img " src="images/club_member_list/u1759.png"/>
+              <div id="u1759_text" class="text ">
+                <p><span>0976544</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1760" class="ax_default table_cell">
+              <img id="u1760_img" class="img " src="images/club_member_list/u1760.png"/>
+              <div id="u1760_text" class="text ">
+                <p><span>2017-02-21</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1761" class="ax_default table_cell">
+              <img id="u1761_img" class="img " src="images/club_member_list/u1761.png"/>
+              <div id="u1761_text" class="text ">
+                <p><span>2018-02-21</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1762" class="ax_default table_cell">
+              <img id="u1762_img" class="img " src="images/club_member_list/u1762.png"/>
+              <div id="u1762_text" class="text ">
+                <p><span>2019-02-21</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1763" class="ax_default table_cell">
+              <img id="u1763_img" class="img " src="images/club_member_list/u1763.png"/>
+              <div id="u1763_text" class="text ">
+                <p><span>Yes</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1764" class="ax_default table_cell">
+              <img id="u1764_img" class="img " src="images/club_member_list/u1764.png"/>
+              <div id="u1764_text" class="text ">
+                <p><span>No</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1765" class="ax_default table_cell">
+              <img id="u1765_img" class="img " src="images/club_member_list/u1765.png"/>
+              <div id="u1765_text" class="text ">
+                <p><span>1</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1766" class="ax_default table_cell">
+              <img id="u1766_img" class="img " src="images/club_member_list/u1766.png"/>
+              <div id="u1766_text" class="text ">
+                <p><span>116788</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1767" class="ax_default table_cell">
+              <img id="u1767_img" class="img " src="images/club_member_list/u1767.png"/>
+              <div id="u1767_text" class="text ">
+                <p><span>Transfer&nbsp; &nbsp;&nbsp; Remove&nbsp; &nbsp;&nbsp; Delete</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1768" class="ax_default table_cell">
+              <img id="u1768_img" class="img " src="images/pb_club_list/u1682.png"/>
+              <div id="u1768_text" class="text ">
+                <p><span>非FULL NAME，同TL中的NAME</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1769" class="ax_default table_cell">
+              <img id="u1769_img" class="img " src="images/club_member_list/u1769.png"/>
+              <div id="u1769_text" class="text ">
+                <p><span>MEMBER/CAPTAIN</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1770" class="ax_default table_cell">
+              <img id="u1770_img" class="img " src="images/pb_club_list/u1682.png"/>
+              <div id="u1770_text" class="text ">
+                <p><span>系统邮箱</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1771" class="ax_default table_cell">
+              <img id="u1771_img" class="img " src="images/club_member_list/u1771.png"/>
+              <div id="u1771_text" class="text ">
+                <p><span>无则展示“--”</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1772" class="ax_default table_cell">
+              <img id="u1772_img" class="img " src="images/club_member_list/u1772.png"/>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1773" class="ax_default table_cell">
+              <img id="u1773_img" class="img " src="images/club_member_list/u1773.png"/>
+              <div id="u1773_text" class="text ">
+                <p><span>无则展示“--”</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1774" class="ax_default table_cell">
+              <img id="u1774_img" class="img " src="images/club_member_list/u1774.png"/>
+              <div id="u1774_text" class="text ">
+                <p><span>无则展示“--”</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1775" class="ax_default table_cell">
+              <img id="u1775_img" class="img " src="images/club_member_list/u1775.png"/>
+              <div id="u1775_text" class="text ">
+                <p><span>YES/NO</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1776" class="ax_default table_cell">
+              <img id="u1776_img" class="img " src="images/club_member_list/u1776.png"/>
+              <div id="u1776_text" class="text ">
+                <p><span>YES/NO</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1777" class="ax_default table_cell">
+              <img id="u1777_img" class="img " src="images/club_member_list/u1777.png"/>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1778" class="ax_default table_cell">
+              <img id="u1778_img" class="img " src="images/club_member_list/u1778.png"/>
+              <div id="u1778_text" class="text ">
+                <p><span>系统ID</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Table Cell) -->
+            <div id="u1779" class="ax_default table_cell">
+              <img id="u1779_img" class="img " src="images/club_member_list/u1779.png"/>
+              <div id="u1779_text" class="text ">
+                <p><span>仅CAPTAIN所在行展示TRANSFER</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1780" class="ax_default button">
+            <div id="u1780_div" class=""></div>
+            <div id="u1780_text" class="text ">
+              <p><span>Add New Member</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1781" class="ax_default box_2">
+          <div id="u1781_div" class=""></div>
+          <div id="u1781_text" class="text ">
+            <p style="font-size:16px;"><span style="font-size:18px;">&nbsp;&nbsp; Club Member List&nbsp; &nbsp; </span><span>Club Name:XXXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Group) -->
+        <div id="u1782" class="ax_default" data-left="30" data-top="71" data-width="1335" data-height="106">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1783" class="ax_default box_2">
+            <div id="u1783_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u1784" class="ax_default" data-left="535" data-top="82" data-width="284" data-height="26">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1785" class="ax_default button">
+              <div id="u1785_div" class=""></div>
+              <div id="u1785_text" class="text ">
+                <p><span style="color:#CCCCCC;">&nbsp; 2000-11-11&nbsp; </span><span style="color:#000000;">to</span><span style="color:#CCCCCC;">&nbsp; 2012-11-11</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u1786" class="ax_default droplist">
+              <select id="u1786_input">
+                <option value="  Date of Join">&nbsp; Date of Join</option>
+                <option value="  Launch Date">&nbsp; Launch Date</option>
+                <option value="  Offline Date">&nbsp; Offline Date</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u1787" class="ax_default" data-left="287" data-top="82" data-width="205" data-height="26">
+
+            <!-- Unnamed (Group) -->
+            <div id="u1788" class="ax_default" data-left="287" data-top="88" data-width="82" data-height="14">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1789" class="ax_default label">
+                <div id="u1789_div" class=""></div>
+                <div id="u1789_text" class="text ">
+                  <p><span>Teacher Name:</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1790" class="ax_default button">
+              <div id="u1790_div" class=""></div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1791" class="ax_default button">
+            <div id="u1791_div" class=""></div>
+            <div id="u1791_text" class="text ">
+              <p><span>Filter</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u1792" class="ax_default button">
+            <div id="u1792_div" class=""></div>
+            <div id="u1792_text" class="text ">
+              <p><span>Clear</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Group) -->
+          <div id="u1793" class="ax_default" data-left="42" data-top="82" data-width="205" data-height="26">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1794" class="ax_default label">
+              <div id="u1794_div" class=""></div>
+              <div id="u1794_text" class="text ">
+                <p><span>Club Position:</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u1795" class="ax_default droplist">
+              <select id="u1795_input">
+                <option value="  Member">&nbsp; Member</option>
+                <option value="  Position">&nbsp; Position</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
