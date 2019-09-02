@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRS-EDIT SOURCE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/prs-edit_source/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/prs-edit_source/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4093" class="ax_default box_1">
+        <div id="u4093_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u4094" class="ax_default image">
+        <img id="u4094_img" class="img " src="images/prs-edit_source/u4094.png"/>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4095" class="ax_default droplist">
+        <select id="u4095_input">
+        </select>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u4096" class="ax_default text_field">
+        <input id="u4096_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4097" class="ax_default heading_3">
+        <div id="u4097_div" class=""></div>
+        <div id="u4097_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">默认回填原</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">SOURCE</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4098" class="ax_default heading_3">
+        <div id="u4098_div" class=""></div>
+        <div id="u4098_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">回填原</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">SOURCE DETAIL</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">的</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">ID</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">部分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4099" class="ax_default heading_3">
+        <div id="u4099_div" class=""></div>
+        <div id="u4099_text" class="text ">
+          <p><span style="color:#9966FF;">&#149; CHANNEL与SOURCE展示动态级联选项；CHANNEL更换后，SOURCE默认选中排序最前的选项</span></p><p><span style="color:#9966FF;">&#149; 当且仅当CHANNEL为Reach时，SOURCE DETAIL可编辑，否则不可编辑且默认为0</span></p><p><span style="color:#9966FF;">&#149; CHANNEL从别的选项切换为REACH时，SOURCE DETAIL默认回填本次编辑过程中的最新编辑内容</span></p><p><span style="color:#9966FF;">&#149; 编辑SOURCE DETAIL时，仅支持输入数值（候选人/教师的系统ID）</span></p><p><span style="color:#9966FF;">&#149; 保存时，须校验：</span></p><p><span style="color:#9966FF;">--CHANNEL为REACH时，SOURCE和SOURCE DETAIL不可为空，否则报错：source detail cannot be empty</span></p><p><span style="color:#9966FF;">--但SOURCE为REFFERR PROGRAMM和NON-EMPLOYEE时，SOURCE DETAIL可为空也可不为空，不做校验</span></p><p><span style="color:#9966FF;">--CHANNEL与SOURCE的对应关系正确匹配，否则报错：Channel does not match Source</span></p><p><span style="color:#9966FF;">--SOURCE DETAIL所填写的ID在系统中存在，否则报错：Nonexistent source detail ID</span></p><p><span style="color:#9966FF;">--SOURCE为Reach Upload时，SOURCE DETAIL ID必须也只能是教师的ID；（也只有教师的ID对应Reach Upload）否则报错：Source does not match Source Detail</span></p><p><span style="color:#9966FF;">--SOURCE为Applicant Referral时，SOURCE DETAIL ID必须也只能是候选人的ID；（也只有候选人的ID对应Applicant Referral）否则报错：Source does not match Source Detail</span></p><p><span style="color:#9966FF;"><br></span></p><p><span style="color:#CC0000;">此编辑功能需要单独的权限控制</span></p><p><span style="color:#9966FF;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u4100" class="ax_default droplist">
+        <select id="u4100_input">
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u4101" class="ax_default heading_3">
+        <div id="u4101_div" class=""></div>
+        <div id="u4101_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">默认回填原</span><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">CHANNEL</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
